@@ -85,7 +85,7 @@ If you are able to launch Windows Powershell/Terminal on your own, feel free to 
 This document is structured in a manner that lets you find what you need fast and easily. To jump to various sections, you can refer to the Table of Contents.
 
 In the following subsection, [3.2 Reading this document](#32-reading-this-document), you can find several tips that could be beneficial when reading this guide.
-The next section, [4. Features section](#4-features), documents the main features that **NurseyBook** offers and provides you with instructions on how to
+The next section, [4. Features](#4-features), documents the main features that **NurseyBook** offers and provides you with instructions on how to
 use each one of them!
 ### 3.2 Reading this document
 
