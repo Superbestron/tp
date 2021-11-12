@@ -59,24 +59,23 @@ If you are able to launch Windows Powershell/Terminal on your own, feel free to 
 ### 2.2 Launching Windows Powershell/Terminal
 #### 2.2.1 Launching Windows Powershell
 
-1. Right-click on the Windows logo on the bottom left hand of your desktop.
+1. Right-click on the Windows logo on the bottom left hand of your desktop. <br>
    ![](images/userGuide/windows_users0.png)
 
-2. Click on Windows Powershell.
+2. Click on Windows Powershell. <br>
    ![](images/userGuide/windows_users1.png)
 
 <div style="page-break-after: always;"></div>
 
 #### 2.2.2 Launching Terminal
 
-1. Right-click on Launchpad at the bottom of your desktop.
+1. Right-click on Launchpad at the bottom of your desktop. <br>
    ![](images/userGuide/mac_users0.png)
 
-2. Search for Terminal in the search bar and click on it.
+2. Search for Terminal in the search bar and click on it. <br>
    ![](images/userGuide/mac_users1.png)
 
 
---------------------------------------------------------------------------------------------------------------------
 --------------------------------------------------------------------------------------------------------------------
 <div style="page-break-after: always;"></div>
 
