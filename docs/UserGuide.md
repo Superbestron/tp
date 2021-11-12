@@ -22,10 +22,11 @@ Though this may seem daunting, this user guide will bring you through each featu
 <div style="page-break-after: always;"></div>
 
 ## 2. Quick start
+### 2.1 Installing and launching NurseyBook
 
 1. Ensure you have Java `11` or above installed in your Computer.
-   * Windows users: Launch [Windows Powershell](#launching-windows-powershell)
-   * Mac users: Launch [Terminal](#launching-terminal)
+   * Windows users: Launch [Windows Powershell](#221-launching-windows-powershell)
+   * Mac users: Launch [Terminal](#222-launching-terminal)
    * In either Windows Powershell or Terminal, enter the command `java -version`.
    * If you see `java version “11.0.x”` on your screen, you have Java `11` installed.
    * If you do not, you can install it from [here](https://www.oracle.com/java/technologies/downloads/)
@@ -54,27 +55,27 @@ Though this may seem daunting, this user guide will bring you through each featu
 
 Refer to the [4. Features](#4-features) below for in-depth details of all available commands. <br>
 If you are able to launch Windows Powershell/Terminal on your own, feel free to skip the launching instructions and proceed to the next section, [3. About](#3-about).
-### Launching Windows Powershell
+
+### 2.2 Launching Windows Powershell/Terminal
+#### 2.2.1 Launching Windows Powershell
 
 1. Right-click on the Windows logo on the bottom left hand of your desktop.
-
-    ![](images/userGuide/windows_users0.png)
+   ![](images/userGuide/windows_users0.png)
 
 2. Click on Windows Powershell.
-
-    ![](images/userGuide/windows_users1.png)
+   ![](images/userGuide/windows_users1.png)
 
 <div style="page-break-after: always;"></div>
 
-### Launching Terminal
+#### 2.2.2 Launching Terminal
 
 1. Right-click on Launchpad at the bottom of your desktop.
-
-    ![](images/userGuide/mac_users0.png)
+   ![](images/userGuide/mac_users0.png)
 
 2. Search for Terminal in the search bar and click on it.
+   ![](images/userGuide/mac_users1.png)
 
-    ![](images/userGuide/mac_users1.png)
+
 --------------------------------------------------------------------------------------------------------------------
 --------------------------------------------------------------------------------------------------------------------
 <div style="page-break-after: always;"></div>
