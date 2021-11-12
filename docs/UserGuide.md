@@ -300,6 +300,7 @@ Let's say Khong Guan is no longer under your charge, or has been discharged from
 To delete an elderly:
 1. Enter [`viewElderly`](#411-view-all-elderly-viewelderly) to view the list of elderly and locate the index number of Khong Guan. In the image below, Khong Guan is at index number 2.
     ![](images/userGuide/delete_elderly_0.png)
+   <div style="page-break-after: always;"></div>
 
 2. Enter `deleteElderly 2` to delete the second elderly in NurseyBook. Khong Guan should no longer be visible.
     ![](images/userGuide/delete_elderly_1.png)
@@ -870,6 +871,7 @@ To view your schedule on a date:
 2. The result box will display the message with the number of tasks occurring on the date.
    
    ![view_schedule_1](images/userGuide/view_schedule_1.png)
+   <div style="page-break-after: always;"></div>
 3. You can see that in the task list displayed, all tasks are scheduled to occur on 08 December 2021.
    
    ![view_schedule_2](images/userGuide/view_schedule_2.png)
