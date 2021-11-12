@@ -137,7 +137,7 @@ You can refer to the image below for the functions of the different sections in 
 
 #### 3.2.3 Navigating in NurseyBook
 
-In NurseyBook, there are some buttons that you can click on- such as the File and Help buttons at the top of the application window. However, most of your interactions with NurseyBook are done through the command box!
+In NurseyBook, there are some buttons that you can click on - such as the File and Help buttons at the top of the application window. However, most of your interactions with NurseyBook are done through the command box!
 
 
 You can enter commands into the command box and press `Enter` to execute them. The result box will then provide a response on whether the command was successfully executed.
