@@ -85,7 +85,7 @@ If you are able to launch Windows Powershell/Terminal on your own, feel free to 
 This document is structured in a manner that lets you find what you need fast and easily. To jump to various sections, you can refer to the Table of Contents.
 
 In the following subsection, [3.2 Reading this document](#32-reading-this-document), you can find several tips that could be beneficial when reading this guide.
-The next section, [4. Features section](#4-features), documents the main features that **NurseyBook** offers and provides you with instructions on how to
+The next section, [4. Features](#4-features), documents the main features that **NurseyBook** offers and provides you with instructions on how to
 use each one of them!
 ### 3.2 Reading this document
 
@@ -171,7 +171,7 @@ Commands in this guide follow such rules:
 * If a parameter is expected only once in the command but you specified it multiple times, only the last occurrence of the parameter will be taken.<br>
   e.g. if you specify `p/12341234 p/56785678`, only `p/56785678` will be taken.
 
-* Commands that do not take in parameters (such as `viewElderly`, `viewTasks`, `clear`, `help`, `exit`) will ignore the additional parameters that are added to the back of it.
+* Commands that do not take in parameters (such as [`viewElderly`](#411-view-all-elderly-viewelderly), [`viewTasks`](#421-view-all-tasks-viewtasks), [`remind`](#427-view-reminders-remind), [`clear`](#431-clearing-all-entries--clear), [`help`](#432-viewing-help--help), [`exit`](#435-exiting-the-program--exit)) will ignore the additional parameters that are added to the back of it.
   e.g. if the command specifies `viewTasks 123`, it will be interpreted as `viewTasks`.
 
 </div>
@@ -503,6 +503,7 @@ To delete one or more tags from an elderly:
 2. As Khong Guan is the second elderly in the list, enter `deleteTag 2 t/flu` to delete the tag `flu` from Khong Guan.
 
     ![](images/userGuide/deleteTag1.png)
+   <div style="page-break-after: always;"></div>
 3. You can check that the `flu` tag is removed from Khong Guan.
 
     ![](images/userGuide/deleteTag2.png)
