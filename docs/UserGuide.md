@@ -14,7 +14,7 @@ title: User Guide
 NurseyBook is a **desktop app** made for nurses in nursing homes to aid them in **managing contacts and tasks** in their busy lives. NurseyBook helps you categorise your elderlies, efficiently record down important details about them as well as better prioritize your tasks and much more!
 
 
-This application uses a command line interface. This means that you operate the application by typing commands into a Command Box.
+This application uses a command line interface. This means that you operate the application by typing commands into a [Command Box](#322-sections-of-the-application-window).
 Though this may seem daunting, this user guide will bring you through each feature step-by-step to make sure that you have an easy time using NurseyBook.
 
 
@@ -22,10 +22,11 @@ Though this may seem daunting, this user guide will bring you through each featu
 <div style="page-break-after: always;"></div>
 
 ## 2. Quick start
+### 2.1 Installing and launching NurseyBook
 
 1. Ensure you have Java `11` or above installed in your Computer.
-   * Windows users: Launch [Windows Powershell](#launching-windows-powershell)
-   * Mac users: Launch [Terminal](#launching-terminal)
+   * Windows users: Launch [Windows Powershell](#221-launching-windows-powershell)
+   * Mac users: Launch [Terminal](#222-launching-terminal)
    * In either Windows Powershell or Terminal, enter the command `java -version`.
    * If you see `java version “11.0.x”` on your screen, you have Java `11` installed.
    * If you do not, you can install it from [here](https://www.oracle.com/java/technologies/downloads/)
@@ -54,28 +55,27 @@ Though this may seem daunting, this user guide will bring you through each featu
 
 Refer to the [4. Features](#4-features) below for in-depth details of all available commands. <br>
 If you are able to launch Windows Powershell/Terminal on your own, feel free to skip the launching instructions and proceed to the next section, [3. About](#3-about).
-### Launching Windows Powershell
 
-1. Right-click on the Windows logo on the bottom left hand of your desktop.
+### 2.2 Launching Windows Powershell/Terminal
+#### 2.2.1 Launching Windows Powershell
 
-    ![](images/userGuide/windows_users0.png)
+1. Right-click on the Windows logo on the bottom left hand of your desktop. <br>
+   ![](images/userGuide/windows_users0.png)
 
-2. Click on Windows Powershell.
-
-    ![](images/userGuide/windows_users1.png)
+2. Click on Windows Powershell. <br>
+   ![](images/userGuide/windows_users1.png)
 
 <div style="page-break-after: always;"></div>
 
-### Launching Terminal
+#### 2.2.2 Launching Terminal
 
-1. Right-click on Launchpad at the bottom of your desktop.
+1. Right-click on Launchpad at the bottom of your desktop. <br>
+   ![](images/userGuide/mac_users0.png)
 
-    ![](images/userGuide/mac_users0.png)
+2. Search for Terminal in the search bar and click on it. <br>
+   ![](images/userGuide/mac_users1.png)
 
-2. Search for Terminal in the search bar and click on it.
 
-    ![](images/userGuide/mac_users1.png)
---------------------------------------------------------------------------------------------------------------------
 --------------------------------------------------------------------------------------------------------------------
 <div style="page-break-after: always;"></div>
 
@@ -85,7 +85,7 @@ If you are able to launch Windows Powershell/Terminal on your own, feel free to 
 This document is structured in a manner that lets you find what you need fast and easily. To jump to various sections, you can refer to the Table of Contents.
 
 In the following subsection, [3.2 Reading this document](#32-reading-this-document), you can find several tips that could be beneficial when reading this guide.
-The next section, [4. Features section](#4-features), documents the main features that **NurseyBook** offers and provides you with instructions on how to
+The next section, [4. Features](#4-features), documents the main features that **NurseyBook** offers and provides you with instructions on how to
 use each one of them!
 ### 3.2 Reading this document
 
@@ -137,7 +137,7 @@ You can refer to the image below for the functions of the different sections in 
 
 #### 3.2.3 Navigating in NurseyBook
 
-In NurseyBook, there are some buttons that you can click on- such as the File and Help buttons at the top of the application window. However, most of your interactions with NurseyBook are done through the command box!
+In NurseyBook, there are some buttons that you can click on - such as the File and Help buttons at the top of the application window. However, most of your interactions with NurseyBook are done through the command box!
 
 
 You can enter commands into the command box and press `Enter` to execute them. The result box will then provide a response on whether the command was successfully executed.
@@ -171,7 +171,7 @@ Commands in this guide follow such rules:
 * If a parameter is expected only once in the command but you specified it multiple times, only the last occurrence of the parameter will be taken.<br>
   e.g. if you specify `p/12341234 p/56785678`, only `p/56785678` will be taken.
 
-* Commands that do not take in parameters (such as `viewElderly`, `viewTasks`, `clear`, `help`, `exit`) will ignore the additional parameters that are added to the back of it.
+* Commands that do not take in parameters (such as [`viewElderly`](#411-view-all-elderly-viewelderly), [`viewTasks`](#421-view-all-tasks-viewtasks), [`remind`](#427-view-reminders-remind), [`clear`](#431-clearing-all-entries--clear), [`help`](#432-viewing-help--help), [`exit`](#435-exiting-the-program--exit)) will ignore the additional parameters that are added to the back of it.
   e.g. if the command specifies `viewTasks 123`, it will be interpreted as `viewTasks`.
 
 </div>
@@ -300,6 +300,7 @@ Let's say Khong Guan is no longer under your charge, or has been discharged from
 To delete an elderly:
 1. Enter [`viewElderly`](#411-view-all-elderly-viewelderly) to view the list of elderly and locate the index number of Khong Guan. In the image below, Khong Guan is at index number 2.
     ![](images/userGuide/delete_elderly_0.png)
+   <div style="page-break-after: always;"></div>
 
 2. Enter `deleteElderly 2` to delete the second elderly in NurseyBook. Khong Guan should no longer be visible.
     ![](images/userGuide/delete_elderly_1.png)
@@ -503,6 +504,7 @@ To delete one or more tags from an elderly:
 2. As Khong Guan is the second elderly in the list, enter `deleteTag 2 t/flu` to delete the tag `flu` from Khong Guan.
 
     ![](images/userGuide/deleteTag1.png)
+   <div style="page-break-after: always;"></div>
 3. You can check that the `flu` tag is removed from Khong Guan.
 
     ![](images/userGuide/deleteTag2.png)
@@ -869,6 +871,7 @@ To view your schedule on a date:
 2. The result box will display the message with the number of tasks occurring on the date.
    
    ![view_schedule_1](images/userGuide/view_schedule_1.png)
+   <div style="page-break-after: always;"></div>
 3. You can see that in the task list displayed, all tasks are scheduled to occur on 08 December 2021.
    
    ![view_schedule_2](images/userGuide/view_schedule_2.png)
@@ -1072,9 +1075,9 @@ Action | Format
 
 Term | Definition
 --------|------------------
+**Case-insensitive** | Any letter case is acceptable (‘abc’ or ‘ABC’ are both acceptable).
 **Command Line Interface (CLI)** | Command line interface where users interact with the system by typing in commands. <br> <br> e.g., Terminal
+**Displayed elderly/task list** | The list of elderlies/tasks displayed in NurseyBook’s application window.
 **JAR** | A file format that contains all bundled Java files (relevant to NurseyBook).
 **Java 11** | The Java Platform, Standard Edition 11 Development Kit (JDK 11) is a feature release of the Java SE platform.
-**Javascript Object Notation (JSON)** | JSON is a lightweight text format for storing and transporting data.            
-**Case-insensitive** | Any letter case is acceptable (‘abc’ or ‘ABC’ are both acceptable).
-**Displayed elderly/task list** | The list of elderlies/tasks displayed in NurseyBook’s application window.
+**Javascript Object Notation (JSON)** | JSON is a lightweight text format for storing and transporting data.
