@@ -14,7 +14,7 @@ title: User Guide
 NurseyBook is a **desktop app** made for nurses in nursing homes to aid them in **managing contacts and tasks** in their busy lives. NurseyBook helps you categorise your elderlies, efficiently record down important details about them as well as better prioritize your tasks and much more!
 
 
-This application uses a command line interface. This means that you operate the application by typing commands into a Command Box.
+This application uses a command line interface. This means that you operate the application by typing commands into a [Command Box](#322-sections-of-the-application-window).
 Though this may seem daunting, this user guide will bring you through each feature step-by-step to make sure that you have an easy time using NurseyBook.
 
 
@@ -1075,9 +1075,9 @@ Action | Format
 
 Term | Definition
 --------|------------------
+**Case-insensitive** | Any letter case is acceptable (‘abc’ or ‘ABC’ are both acceptable).
 **Command Line Interface (CLI)** | Command line interface where users interact with the system by typing in commands. <br> <br> e.g., Terminal
+**Displayed elderly/task list** | The list of elderlies/tasks displayed in NurseyBook’s application window.
 **JAR** | A file format that contains all bundled Java files (relevant to NurseyBook).
 **Java 11** | The Java Platform, Standard Edition 11 Development Kit (JDK 11) is a feature release of the Java SE platform.
-**Javascript Object Notation (JSON)** | JSON is a lightweight text format for storing and transporting data.            
-**Case-insensitive** | Any letter case is acceptable (‘abc’ or ‘ABC’ are both acceptable).
-**Displayed elderly/task list** | The list of elderlies/tasks displayed in NurseyBook’s application window.
+**Javascript Object Notation (JSON)** | JSON is a lightweight text format for storing and transporting data.
